@@ -1,0 +1,104 @@
+
+/*-- Global Styling --*/
+a{color: #7f7f7f;}
+img.img_special_scale {max-height: 260px;height: 260px;}
+/*=================== Strat form global styling ===================*/
+div.form-gorup{margin-bottom: 20px;}
+.form-control{position: relative;}
+
+.asterisk{
+	font-size: 30px;
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+.show-pass{color: #999;}
+.show-pass:hover{color: #444;}
+.upper_bar{padding: 10px;}
+.upper_bar .upper_bar_img{width: 40px;}
+.upper_bar .upper_bar_drdn{font-size: 1.8em;}
+.upper_bar .upper_bar_btn{cursor: pointer;float: none;}
+.upper_bar .upper_bar_caret{
+	border-top: 8px dashed;
+	border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+.upper_bar span.active{color: #007bff;}
+.upper_bar a{color: inherit;}
+
+.navbar-brand {color: rgba(0,0,0,.9);font-size: 2.25rem;}
+.navbar-brand:hover{color: rgba(0,0,0,.9);}
+.navbar-collapse{padding:0;}
+.navbar-nav .nav-item{list-style: none;padding: 15px 0 15px 15px;}
+.navbar-nav .nav-item .nav-link{color: rgba(0,0,0,.5);}
+
+/*=================== End form global page styling ===================*/
+
+/*=================== Strat login/signup page styling ===================*/
+
+.login-signup h3 span{cursor: pointer;}
+.login-signup h3 span.active{color: #007bff;}
+.login-signup .login,.login-signup .signup {width: 300px;margin: 100px auto}
+.login-signup form.signup{display: none;}
+.login-signup .signup .asterisk{right: -22px;}
+.login input, .signup input {margin-bottom: 10px;}
+#login-eye {position: relative;right: -310px;top: -37px}
+.login-signup .signup .pass2{margin-top: -25px;}
+/*=================== End login/signup page styling ===================*/
+
+/*=================== Strat Profile page styling ===================*/
+.pro-info .span_info{display: inline-block;width: 125px;margin: 3px;}
+.item_box{position: relative;}
+.item_box .waiting-appr{
+	position: absolute;
+    background-color: #bf5050;
+    color: #fff;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+}
+.of_hidden{overflow: hidden;}
+.item_box .caption p{height: 20px;max-height: 20px;margin: 0;overflow: auto;}
+.i_date{
+	display: block;
+    float: right;
+    padding: 10px 5px 0 5px;
+    color: #a9a9a9;
+}
+.addnew-btn{padding: 5px;border-radius: 5px;font-size: 1.4em;}
+.addnew-btn a{color: #fff;}
+.pro-comments .row{padding: 0 15px;}
+.comment_box {margin: 10px 0;overflow: hidden;}
+.comment_box img{max-width: 70px}
+.comment_box .item_n, .comment_box .item_c{display: inline-block;border-radius: 10px;padding: 5px;}
+.comment_box .item_n{margin-right: 10px;width: 80px;float: left;background-color: #85a392;text-align: center;}
+.comment_box .item_n span{display: block;}
+.comment_box .item_c{max-width: calc(100% - 100px);position: relative;background-color: #007bff40;}
+/*=================== Strat Profile page styling ===================*/
+
+/*=================== Strat New Ad page styling ===================*/
+.cr-ads label{display: inline-block;width: 140px;}
+.cr-ads select{width: 40%;font-size: 15px;padding: 5px 0 10px;}
+.cr-ads form input[type=file] {
+    border: none;
+    padding: 13px 0 13px 0;
+    font-size: 20px;
+}
+.cr-ads form input[type=submit] {margin-left: 15px;}
+/*=================== Strat New Ad page styling ===================*/
+
+/*=================== Strat show item page styling ===================*/
+.show-item .caption li{margin-bottom: 10px;font-size: 1.2em;}
+.show-item .caption li span{display: inline-block;width: 100px;font-weight: bold;}
+.show-item .caption .tags_li .tags_separator{display: inline;}
+.show-item .caption .tags_li .tags_separator:last-child{display: none;}
+.custom-hr {border-top: 1px solid #cdcdcd;margin: 10px 0;}
+.show-item .item-add-comment{padding-left: 10px;}
+.show-item .item-add-comment h3{margin-top: 0;}
+.show-item .item-add-comment textarea{display: block;width: 400px;height: 150px;margin-bottom: 10px;}
+/*=================== Strat show item page styling ===================*/
+
+/*=================== Strat Main Cat page styling ===================*/
+.main_cat .main_c_links{display: inline-block;font-size: 2em;padding: 20px;}
+/*=================== Strat Main Cat  page styling ===================*/

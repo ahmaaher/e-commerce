@@ -1,0 +1,7 @@
+DB name: shop
+
+DB tables:
+- users: 	ID, Username, Password, Email, FullName, GroupID, TrustStatus, RegStatus, Insert_Date, img
+- categories: 	ID, Name, Description, parent, Ordering, Visibility, Allow_Comment, Allow_Ads, tags
+- items: 	ID, Name, Description, Price, Add_Date, Country, img, Quality, Rating, ApprStat, Category_ID, Member_ID, tags
+- comments: 	ID, Comment, CommStat, CommDate, ItemID, UserID
